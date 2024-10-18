@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Configuration file for SUMO Simulation -->
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="MODEL1.net.xml"/>
+        <route-files value="MODEL1sumo.rou.xml"/>
+        <!-- Add the PAN 360 detectors file -->
+        <additional-files value="MODEL1.add.xml"/>
+    </input>
+
+    <time>
+        <end value="3600"/> <!-- End after 1 hour of simulation time -->
+    </time>
+
+    <report>
+        <log value="simulation_log.xml"/>
+        <tripinfo-output value="tripinfo_output.xml"/>
+    </report>
+
+</configuration>
