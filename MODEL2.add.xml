@@ -1,0 +1,12 @@
+<!--  Additional file for PAN 360 Detectors placed at intersection edges  -->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<!--  Place PAN 360 detectors just before the intersection for each incoming lane  -->
+<inductionLoop id="pan360_0" lane="-E0_0" pos="92" freq="60" file="pan360_output.xml"/>
+<!--  Placed near the end of lane E0_0  -->
+<inductionLoop id="pan360_1" lane="E1_0" pos="92" freq="60" file="pan360_output.xml"/>
+<!--  Placed near the end of lane E1_0  -->
+<inductionLoop id="pan360_2" lane="E2_0" pos="92" freq="60" file="pan360_output.xml"/>
+<!--  Placed near the end of lane E2_0  -->
+<inductionLoop id="pan360_3" lane="E3_0" pos="92" freq="60" file="pan360_output.xml"/>
+<!--  Placed near the end of lane E3_0  -->
+</additional>

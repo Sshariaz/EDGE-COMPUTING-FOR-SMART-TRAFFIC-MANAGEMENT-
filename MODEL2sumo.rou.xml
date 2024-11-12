@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <!-- Morning Rush (7:00 AM - 9:00 AM, scaled down for quick testing) -->
+    <flow id="morning_f_0" begin="0" end="30" from="-E0" to="-E2" vehsPerHour="240"/>
+    <flow id="morning_f_1" begin="0" end="30" from="-E0" to="-E1" vehsPerHour="240"/>
+    <flow id="morning_f_2" begin="0" end="30" from="-E0" to="-E3" vehsPerHour="240"/>
+    <flow id="morning_f_3" begin="0" end="30" from="E2" to="E0" vehsPerHour="240"/>
+    <flow id="morning_f_4" begin="0" end="30" from="E2" to="-E3" vehsPerHour="240"/>
+    <flow id="morning_f_5" begin="0" end="30" from="E2" to="-E1" vehsPerHour="240"/>
+    <flow id="morning_f_6" begin="0" end="30" from="E1" to="E0" vehsPerHour="240"/>
+    <flow id="morning_f_7" begin="0" end="30" from="E1" to="-E2" vehsPerHour="240"/>
+    <flow id="morning_f_8" begin="0" end="30" from="E1" to="-E3" vehsPerHour="240"/>
+    <flow id="morning_f_9" begin="0" end="30" from="E3" to="-E2" vehsPerHour="240"/>
+    <flow id="morning_f_10" begin="0" end="30" from="E3" to="E0" vehsPerHour="240"/>
+    <flow id="morning_f_11" begin="0" end="30" from="E3" to="-E1" vehsPerHour="240"/>
+
+    <!-- Night Rush (5:00 PM - 7:00 PM, scaled down for quick testing) -->
+    <flow id="night_f_0" begin="40" end="70" from="-E0" to="-E2" vehsPerHour="200"/>
+    <flow id="night_f_1" begin="40" end="70" from="-E0" to="-E1" vehsPerHour="200"/>
+    <flow id="night_f_2" begin="40" end="70" from="-E0" to="-E3" vehsPerHour="200"/>
+    <flow id="night_f_3" begin="40" end="70" from="E2" to="E0" vehsPerHour="200"/>
+    <flow id="night_f_4" begin="40" end="70" from="E2" to="-E3" vehsPerHour="200"/>
+    <flow id="night_f_5" begin="40" end="70" from="E2" to="-E1" vehsPerHour="200"/>
+    <flow id="night_f_6" begin="40" end="70" from="E1" to="E0" vehsPerHour="200"/>
+    <flow id="night_f_7" begin="40" end="70" from="E1" to="-E2" vehsPerHour="200"/>
+    <flow id="night_f_8" begin="40" end="70" from="E1" to="-E3" vehsPerHour="200"/>
+    <flow id="night_f_9" begin="40" end="70" from="E3" to="-E2" vehsPerHour="200"/>
+    <flow id="night_f_10" begin="40" end="70" from="E3" to="E0" vehsPerHour="200"/>
+    <flow id="night_f_11" begin="40" end="70" from="E3" to="-E1" vehsPerHour="200"/>
+
+</routes>
